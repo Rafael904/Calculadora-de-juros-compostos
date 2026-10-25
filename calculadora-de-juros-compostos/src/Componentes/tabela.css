@@ -1,0 +1,28 @@
+table{
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #9ce5ed;
+}
+
+td{
+    width: 250px;
+    border: 1px solid #1c4b8e;
+}
+
+#Ano{
+    width: 50px;
+    background-color: #03b5c1;
+}
+
+th{
+    width: 250px;
+    border: 1px solid #1c4b8e;
+    background-color: #03b5c1;
+}
+
+@media (max-width: 600px) {
+    #juros, #investido{
+        display: none;
+    }
+}
