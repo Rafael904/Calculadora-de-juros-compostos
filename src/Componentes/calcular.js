@@ -1,6 +1,5 @@
 import { useContext } from 'react';
 import { UserContext } from '../VarContext/Context.js';
-import Historico from './Historico.js';
 
 function useCalcular() {//Calcula o valor final do investimento com base nos valores fornecidos pelo usuário no contexto.
     const { inicial, mensal, juros, periodo } = useContext(UserContext);
